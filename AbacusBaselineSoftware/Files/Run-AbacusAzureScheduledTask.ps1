@@ -1,1 +1,1 @@
-C:\ProgramData\chocolatey\bin\choco.exe upgrade abacusazurewindowsdefault --force  -s abacus-test-feed -y
+C:\ProgramData\chocolatey\bin\choco.exe upgrade abacusazurewindowsdefault --force  -s abacus-chocolatey-prod -y

@@ -22,7 +22,7 @@ $AbacusSourceList = $SourceList -match "accessabacus"
 
 if ($AbacusSourceList.count -lt 1) {Write-Output "Missing"
 
-C:\ProgramData\chocolatey\bin\choco source add -n=abacus-test-feed -s="https://pkgs.dev.azure.com/accessabacus/Chocolatey/_packaging/test-feed/nuget/v2" -u="adm-pponzeka@accessabacus.com" -p="qtdhnuvl43jir4uksjmrwudzkxzyw3wyyauhasayb4lkkkruu4za"
+C:\ProgramData\chocolatey\bin\choco source add -n=abacus-chocolatey-prod -s="https://pkgs.dev.azure.com/accessabacus/Chocolatey/_packaging/prod/nuget/v2" -u="srv-chocolatey@accessabacus.com" -p="zx4ahhbvz5o2ibq63ro2t6m3aiifjrwclbzeynuwg4acl3vuvpjq"
 
 }
 
